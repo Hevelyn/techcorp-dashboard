@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 700;
+  font-style: normal;
+  src: url('../src/assets/fonts/IBMPlexSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 500;
+  font-style: normal;
+  src: url('../src/assets/fonts/IBMPlexSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 400;
+  font-style: normal;
+  src: url('../src/assets/fonts/IBMPlexSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 300;
+  font-style: normal;
+  src: url('../src/assets/fonts/IBMPlexSans-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 200;
+  font-style: normal;
+  src: url('../src/assets/fonts/IBMPlexSans-ExtraLight.otf') format('opentype');
+}
+
+:root {
+  @include mat.button-overrides((filled-container-color: #002fff,
+      filled-label-text-color: #fff,
+    ));
+}
+
+body {
+  margin: 0;
+  font-family: 'IBMPlexSans', sans-serif;
+  background-color: #f5f5f5;
+}

@@ -1,0 +1,18 @@
+.employee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  .employee-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 1.2em;
+
+    mat-card-content {
+      line-height: 25px;
+
+      p {
+        margin-top: 0px;
+      }
+    }
+  }
+}

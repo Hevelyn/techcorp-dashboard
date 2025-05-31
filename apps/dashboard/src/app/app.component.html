@@ -1,2 +1,8 @@
-<app-nx-welcome></app-nx-welcome>
+<section>
+  <h1>TECH CORP</h1>
+  <div class="row">
+    <button mat-flat-button (click)="openEmployeeForm()">ADD NEW EMPLOYEE</button>
+  </div>
+  <app-employee-list [employees]="employees"></app-employee-list>
+</section>
 <router-outlet></router-outlet>

@@ -1,0 +1,9 @@
+<div class="employee-list">
+  <mat-card class="employee-card" *ngFor="let employee of employees">
+    <mat-card-content>
+      <mat-card-title><strong>Name: </strong>{{ employee.name }}</mat-card-title>
+      <mat-card-subtitle><strong>Email: </strong>{{ employee.email }}</mat-card-subtitle>
+      <p><strong>Phone: </strong>{{ employee.phone }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

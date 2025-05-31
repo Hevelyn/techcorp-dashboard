@@ -1,0 +1,308 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.1.2",
+  "pathMappings": {
+    "@techcorp/core": [
+      "shared/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "17559216753634855455"
+      },
+      {
+        "file": "package.json",
+        "hash": "8637638918056937229"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5027697336428547458"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1084654374314538994"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "README.md",
+        "hash": "6832419864616425252"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "8719690703474996513"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      }
+    ],
+    "projectFileMap": {
+      "dashboard": [
+        {
+          "file": "apps/dashboard/eslint.config.mjs",
+          "hash": "16756400681144203361",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/dashboard/jest.config.ts",
+          "hash": "4395250475089869511"
+        },
+        {
+          "file": "apps/dashboard/project.json",
+          "hash": "2701386827707008255"
+        },
+        {
+          "file": "apps/dashboard/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/dashboard/src/app/app.component.html",
+          "hash": "6470593189885605386"
+        },
+        {
+          "file": "apps/dashboard/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/dashboard/src/app/app.component.spec.ts",
+          "hash": "6532549307188612672",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/app.component.ts",
+          "hash": "1057171302883826971",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/app.config.ts",
+          "hash": "6137170128205633588",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-form/employee-form.component.html",
+          "hash": "6060238961018897409"
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-form/employee-form.component.scss",
+          "hash": "6633805998217453293"
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-form/employee-form.component.spec.ts",
+          "hash": "6232177172029113334",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-form/employee-form.component.ts",
+          "hash": "7905886225649589779",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/material",
+            "core"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-list/employee-list.component.html",
+          "hash": "2664378595672780484"
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-list/employee-list.component.scss",
+          "hash": "4286036008546189391"
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-list/employee-list.component.spec.ts",
+          "hash": "10312182272459999693",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/components/employee-list/employee-list.component.ts",
+          "hash": "7711771670681358029",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/nx-welcome.component.ts",
+          "hash": "12357746133228659062",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/index.html",
+          "hash": "9566257196747818207"
+        },
+        {
+          "file": "apps/dashboard/src/main.ts",
+          "hash": "10239306859077439497",
+          "deps": [
+            "npm:@angular/platform-browser",
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/dashboard/src/test-setup.ts",
+          "hash": "1917999429567095215",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/dashboard/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/dashboard/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/dashboard/tsconfig.json",
+          "hash": "6424220500541951295"
+        },
+        {
+          "file": "apps/dashboard/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "core": [
+        {
+          "file": "shared/README.md",
+          "hash": "9810432091555253122"
+        },
+        {
+          "file": "shared/eslint.config.mjs",
+          "hash": "805488336937133967",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "shared/jest.config.ts",
+          "hash": "9479869472170308579"
+        },
+        {
+          "file": "shared/project.json",
+          "hash": "4144617879891138018"
+        },
+        {
+          "file": "shared/src/index.ts",
+          "hash": "13695176409679614031"
+        },
+        {
+          "file": "shared/src/lib/core/core.component.html",
+          "hash": "3627359006368866861"
+        },
+        {
+          "file": "shared/src/lib/core/core.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "shared/src/lib/core/core.component.spec.ts",
+          "hash": "13340804467795616465",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "shared/src/lib/core/core.component.ts",
+          "hash": "16922263399034740436",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "shared/src/lib/models/employee.model.ts",
+          "hash": "11382286183646893352"
+        },
+        {
+          "file": "shared/src/lib/services/employee.service.ts",
+          "hash": "6010798312758337372",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "shared/src/test-setup.ts",
+          "hash": "1917999429567095215",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "shared/tsconfig.json",
+          "hash": "14532299958370693979"
+        },
+        {
+          "file": "shared/tsconfig.lib.json",
+          "hash": "4766185256741444917"
+        },
+        {
+          "file": "shared/tsconfig.spec.json",
+          "hash": "2129196202529263968"
+        }
+      ]
+    }
+  }
+}
